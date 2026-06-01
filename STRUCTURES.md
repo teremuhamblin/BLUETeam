@@ -78,3 +78,55 @@ BlueTeam/
     │   └── codeql.yml
     └── CODEOWNERS
 ```
+
+### 🔍 Utilisation
+```text
+- Surveille les logs et alertes (SIEM, EDR, IDS)  
+- Analyse les incidents de sécurité  
+- Contient et remédie aux attaques  
+- Crée des règles de détection (Sigma, YARA…)  
+- Renforce les systèmes (hardening)  
+- Construit des playbooks SOC  
+- Collabore avec la Red Team pour améliorer la défense  
+```
+>Ce document décrit chaque dossier et son rôle dans l’architecture du projet.
+
+>docs/
+- Documentation complète SOC, IR, Threat Hunting, Architecture.
+
+>playbooks/
+- Playbooks opérationnels pour analystes SOC.
+
+>detection-rules/
+- Règles Sigma et YARA pour détection avancée.
+
+>scripts/
+- Scripts d’automatisation, collecte, analyse.
+
+>tools/
+- Outils internes BlueTeam (analyse logs, forensic, réseau).
+
+>.github/
+- Templates, workflows CI/CD, sécurité GitHub.
+`
+
+---
+
+### ⚙️ Workflows GitHub Actions
+
+🔍 CodeQL
+- Analyse de sécurité automatique.
+
+🛡️ Security Scan
+- Scan dépendances + vulnérabilités.
+
+🧹 Lint
+- Vérification syntaxique Python + PowerShell.
+
+---
+
+### 🔐 CODEOWNERS
+```text
+* @teremuhamblin
+```
+
