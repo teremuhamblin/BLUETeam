@@ -1,4 +1,5 @@
-###### README.md >> markdown 
+###### README.md >> markdown
+ [![Lint](https://github.com/teremuhamblin/BLUETeam/actions/workflows/lint.yml/badge.svg)](https://github.com/teremuhamblin/BLUETeam/actions/workflows/lint.yml)
 # BLUETeam
 >Une BLUETeam est l’équipe chargée de la défense cyber dans une organisation militaire.
 - Son rôle est de détecter, analyser, contenir et répondre aux attaques informatiques pour protéger les systèmes, les données et les utilisateurs.
