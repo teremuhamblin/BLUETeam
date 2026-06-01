@@ -15,7 +15,7 @@
 ```
 
 ### 📂 Structure
->Voir STRUCTURE.md pour la description complète.
+>Voir STRUCTURES.md pour la description complète.
 
 ### 🚀 Objectifs
 ```text
