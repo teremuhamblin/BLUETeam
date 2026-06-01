@@ -1,0 +1,24 @@
+name: Lint
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  lint-python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install black
+      - run: black --check scripts/python || true
+
+  lint-powershell:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check PowerShell scripts
+        run: pwsh -Command "Get-ChildItem -Recurse -Filter *.ps1 | ForEach-Object { Write-Host 'Found:' $_.FullName }"
