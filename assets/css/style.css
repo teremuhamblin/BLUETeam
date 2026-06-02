@@ -12,12 +12,59 @@ body {
 }
 
 /* ============================================================
-  ASSETS, LOGO, IMG, OTHERS
+  ASSETS, BADGES, LOGO, IMG, OTHERS
    ============================================================ */
 
 .logo-socn5 {
   height: 48px;
 }
+
+.badge-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.badge {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border: 1px solid #1f6feb;
+  background: #0d1117;
+  color: #c9d1d9;
+}
+
+/* Variantes tactiques */
+.badge-mitre {
+  border-color: #58a6ff;
+  color: #58a6ff;
+}
+
+.badge-tlp-amber {
+  border-color: #f0883e;
+  color: #f0883e;
+}
+
+.badge-tlp-red {
+  border-color: #ff7b72;
+  color: #ff7b72;
+}
+
+.badge-cvss {
+  border-color: #3fb950;
+  color: #3fb950;
+}
+
+.badge-soc {
+  border-color: #1f6feb;
+  background: linear-gradient(90deg, #0d1117, #0b1625);
+}
+
 
 /* ============================================================
    HEADER
