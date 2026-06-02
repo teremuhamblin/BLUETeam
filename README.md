@@ -17,7 +17,7 @@
 [![CodeQL](https://github.com/teremuhamblin/BLUETeam/actions/workflows/codeql.yml/badge.svg)](https://github.com/teremuhamblin/BLUETeam/actions/workflows/codeql.yml)
 [![Status](https://img.shields.io/badge/Status-Active-blue)]()
 [![Security Level](https://img.shields.io/badge/SOC-Level%205%20(Defense)-blue)]()
-[![MITRE ATT&CK](https://img.shields.io/badge/MITRE-ATT%26CK-blue)]()
+[![MITRE ATT&CK](https://img.shields.io/badge/MITRE-Attack-blue)]()
 [![Threat Intel](https://img.shields.io/badge/CTI-Integrated-blue)]()
 [![Forensic](https://img.shields.io/badge/DFIR-Ready-blue)]()
 
