@@ -1,5 +1,8 @@
-/* ===== SOC-N5 Military Theme ===== */
+/* ============================================================
+   SOC-N5 MILITARY THEME — FULL PREMIUM VERSION
+   ============================================================ */
 
+/* GLOBAL */
 body {
   margin: 0;
   padding: 0;
@@ -8,12 +11,16 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-/* HEADER */
+/* ============================================================
+   HEADER
+   ============================================================ */
+
 .socn5-header {
   background: #0d1117;
   border-bottom: 2px solid #1f6feb;
   padding: 20px;
   text-align: center;
+  box-shadow: 0 0 20px rgba(31, 111, 235, 0.2);
 }
 
 .socn5-header h1 {
@@ -28,18 +35,25 @@ body {
   color: #8b949e;
 }
 
-/* LAYOUT */
+/* ============================================================
+   LAYOUT
+   ============================================================ */
+
 .layout-container {
   display: flex;
   min-height: 100vh;
 }
 
-/* SIDEBAR */
+/* ============================================================
+   SIDEBAR
+   ============================================================ */
+
 .sidebar {
   width: 260px;
   background: #0d1117;
   border-right: 1px solid #1f6feb;
   padding: 20px;
+  box-shadow: 4px 0 15px rgba(31, 111, 235, 0.1);
 }
 
 .sidebar-nav ul {
@@ -55,20 +69,27 @@ body {
   color: #c9d1d9;
   text-decoration: none;
   font-weight: 500;
+  transition: color 0.2s ease;
 }
 
 .sidebar-nav a:hover {
   color: #58a6ff;
 }
 
-/* CONTENT */
+/* ============================================================
+   CONTENT
+   ============================================================ */
+
 .content {
   flex: 1;
   padding: 40px;
   max-width: 1000px;
 }
 
-/* FOOTER */
+/* ============================================================
+   FOOTER
+   ============================================================ */
+
 .footer {
   text-align: center;
   padding: 20px;
@@ -77,9 +98,30 @@ body {
   color: #8b949e;
 }
 
-/* ===========================
-   DASHBOARD SOC-N5
-   =========================== */
+/* ============================================================
+   COMMAND CENTER
+   ============================================================ */
+
+.command-center {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.cc-card {
+  background: #0d1117;
+  border: 1px solid #1f6feb;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: 600;
+  animation: pulseGlow 2s infinite;
+}
+
+/* ============================================================
+   DASHBOARD
+   ============================================================ */
 
 .dashboard {
   margin-top: 40px;
@@ -88,14 +130,12 @@ body {
   gap: 30px;
 }
 
-/* ROW */
 .dash-row {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
 }
 
-/* CARDS */
 .dash-card {
   background: #0d1117;
   border: 1px solid #1f6feb;
@@ -133,7 +173,7 @@ body {
   font-size: 14px;
 }
 
-/* PULSE ANIMATION */
+/* Pulse animation */
 .pulse {
   animation: pulseGlow 2s infinite;
 }
@@ -144,7 +184,10 @@ body {
   100% { box-shadow: 0 0 5px #1f6feb; }
 }
 
-/* PROGRESS BARS */
+/* ============================================================
+   PROGRESS BARS
+   ============================================================ */
+
 .dash-progress {
   background: #0d1117;
   border: 1px solid #1f6feb;
@@ -179,7 +222,10 @@ body {
   font-size: 14px;
 }
 
-/* RADAR */
+/* ============================================================
+   RADAR
+   ============================================================ */
+
 .radar-container {
   width: 260px;
   height: 260px;
@@ -220,3 +266,82 @@ body {
   margin-top: 10px;
   color: #8b949e;
 }
+
+/* ============================================================
+   HEATMAP MITRE
+   ============================================================ */
+
+.mitre-heatmap {
+  display: grid;
+  gap: 4px;
+}
+
+.mitre-row {
+  display: flex;
+  gap: 4px;
+}
+
+.mitre-cell {
+  width: 22px;
+  height: 22px;
+  background: #161b22;
+  border: 1px solid #1f6feb;
+  animation: heatPulse 3s infinite;
+}
+
+@keyframes heatPulse {
+  0% { background: #161b22; }
+  50% { background: #1f6feb; }
+  100% { background: #161b22; }
+}
+
+/* ============================================================
+   TIMELINE INCIDENTS
+   ============================================================ */
+
+.timeline {
+  border-left: 2px solid #1f6feb;
+  padding-left: 20px;
+}
+
+.timeline-item {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.timeline-item::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background: #58a6ff;
+  border-radius: 50%;
+  position: absolute;
+  left: -7px;
+  top: 4px;
+}
+
+.timeline-date {
+  color: #8b949e;
+  font-size: 14px;
+}
+
+/* ============================================================
+   ALERTES EN DIRECT
+   ============================================================ */
+
+.alert-feed {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.alert-item {
+  padding: 12px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.alert-item.critical { background: #ff7b72; color: #0a0f14; }
+.alert-item.high { background: #f0883e; color: #0a0f14; }
+.alert-item.medium { background: #58a6ff; color: #0a0f14; }
+.alert-item.low { background: #3fb950; color: #0a0f14; }
