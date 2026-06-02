@@ -1,0 +1,17 @@
+title: Brute Force Authentication Attempts
+id: 005-bruteforce-auth
+status: stable
+description: Detects repeated failed logons from same source.
+author: BLUETeam SOC-N5
+logsource:
+  product: windows
+  category: authentication
+detection:
+  selection:
+    EventID: 4625
+  timeframe: 5m
+  condition: selection | count() by SourceIP > 10
+level: medium
+tags:
+  - attack.initial_access
+  - attack.t1110
