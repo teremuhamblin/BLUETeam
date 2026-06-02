@@ -1,7 +1,8 @@
 ###### README.md >> markdown 
 # 🛡️ BLUETeam 
 >Défense Nationale
-- SOC‑N5 (ULTIME+++)
+- SOC >> N5
+   - (ULTIME)
 ```md
 ██████╗ ██╗     ██╗   ██╗███████╗████████╗███████╗ █████╗ ███╗   ███╗
 ██╔══██╗██║     ██║   ██║██╔════╝╚══██╔══╝██╔════╝██╔══██╗████╗ ████║
@@ -9,12 +10,36 @@
 ██╔══██╗██║     ██║   ██║╚════██║   ██║   ██╔══╝  ██╔══██║██║╚██╔╝██║
 ██████╔╝███████╗╚██████╔╝███████║   ██║   ███████╗██║  ██║██║ ╚═╝ ██║
 ╚═════╝ ╚══════╝ ╚═════╝ ╚══════╝   ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝
-                    BLUE TEAM — NATIONAL CYBER DEFENSE
+                    BLUETeam — DÉFENSE NATIONNALE
+```
+[![Lint](https://github.com/teremuhamblin/BLUETeam/actions/workflows/lint.yml/badge.svg)](https://github.com/teremuhamblin/BLUETeam/actions/workflows/lint.yml)
+[![Security Scan](https://github.com/teremuhamblin/BLUETeam/actions/workflows/security-scan.yml/badge.svg)](https://github.com/teremuhamblin/BLUETeam/actions/workflows/security-scan.yml)
+[![CodeQL](https://github.com/teremuhamblin/BLUETeam/actions/workflows/codeql.yml/badge.svg)](https://github.com/teremuhamblin/BLUETeam/actions/workflows/codeql.yml)
+[![Status](https://img.shields.io/badge/Status-Active-blue)]()
+[![Security Level](https://img.shields.io/badge/SOC-Level%205%20(National%20Defense)-red)]()
+[![MITRE ATT&CK](https://img.shields.io/badge/MITRE-ATT%26CK-red)]()
+[![Threat Intel](https://img.shields.io/badge/CTI-Integrated-orange)]()
+[![Forensic](https://img.shields.io/badge/DFIR-Ready-green)]()
+
+# 🛡️ BLUETeam — Cyber Defense Engineering (SOC‑N5)
+> **Framework complet de défense cyber militaire**, conçu pour les environnements critiques, les opérations de défense nationale et les SOC de niveau maximal.
+> Ce dépôt fournit une architecture opérationnelle pour :
+```md
+- la **détection avancée**,  
+- la **réponse aux incidents**,  
+- la **chasse aux menaces**,  
+- l’**analyse forensique**,  
+- l’**automatisation SOC**,  
+- l’**ingénierie de pipelines de sécurité**.
 ```
 
-![Lint](https://github.com/teremuhamblin/BLUETeam/actions/workflows/lint.yml)
-Security Scan (github.com in Bing)
-CodeQL (github.com in Bing)
+---
+
+### 🛰️ **SECURITY**
+>Security Scan
+   - (github.com in Bing)
+>CodeQL
+   - (github.com in Bing)
 
 ### 🛡️ Cyber Defense Engineering (SOC‑N5)
 > Framework complet de défense cyber militaire,
