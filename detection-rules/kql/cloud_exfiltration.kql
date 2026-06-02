@@ -1,0 +1,4 @@
+CloudAppEvents
+| where ActionType == "Upload"
+| where DestinationApp in ("Dropbox", "Mega", "GoogleDrive")
+| summarize TotalUploads = count() by User, DestinationApp
