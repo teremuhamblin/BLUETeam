@@ -1,0 +1,2 @@
+FileEvents
+| where FileName endswith ".locked" or FileName endswith ".enc" or FileName endswith ".crypt"
