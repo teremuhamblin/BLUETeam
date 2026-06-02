@@ -1,7 +1,12 @@
 ###### README.md >> markdown 
 # 📁 PLAYBOOKS
->SOC‑N5  
-Playbooks opérationnels pour analystes N1 → N3, alignés MITRE ATT&CK, doctrine BlueTeam militaire et exigences SOC‑N5.  
+>SOC‑N5
+```text
+>Playbooks opérationnels pour analystes N1 → N3,
+   - alignés MITRE ATT&CK,
+   - doctrine BlueTeam militaire et exigences SOC‑N5.
+```
+
 Chaque playbook fournit une procédure claire, rapide et exploitable en situation réelle.
 
 ---
@@ -16,7 +21,6 @@ Chaque playbook fournit une procédure claire, rapide et exploitable en situatio
 ---
 
 ## 📚 Contenu des playbooks
-
 ### 🔍 Investigation & Intrusion
 - **phishing_investigation.md** — Analyse d’un mail ou artefact suspect.  
 - **malware_triage.md** — Triage rapide d’un binaire ou d’un comportement malveillant.  
@@ -40,8 +44,7 @@ Chaque playbook fournit une procédure claire, rapide et exploitable en situatio
 ---
 
 ## 🧭 Structure type d’un playbook
-Chaque playbook suit une structure standardisée :
-
+>Chaque playbook suit une structure standardisée :
 - **Objectif** — Ce que le playbook doit accomplir.  
 - **Indicateurs clés** — Signaux d’alerte.  
 - **Procédure N1** — Actions rapides, filtrage, escalade.  
