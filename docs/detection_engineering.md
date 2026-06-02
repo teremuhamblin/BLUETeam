@@ -1,4 +1,4 @@
-###### docs/detection_engineering.md
+###### docs/ detection_engineering.md
 # 🎯 Detection Engineering
 >BlueTeam SOC‑N5
 - L’ingénierie de détection est le cœur du SOC.  
