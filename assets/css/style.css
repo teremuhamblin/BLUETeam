@@ -1,8 +1,78 @@
----
----
-
-@import "minima";
+/* ===== SOC-N5 Military Theme ===== */
 
 body {
+  margin: 0;
+  padding: 0;
+  background: #0a0f14;
+  color: #d0d4d8;
   font-family: "Inter", sans-serif;
+}
+
+/* HEADER */
+.socn5-header {
+  background: #0d1117;
+  border-bottom: 2px solid #1f6feb;
+  padding: 20px;
+  text-align: center;
+}
+
+.socn5-header h1 {
+  margin: 0;
+  color: #58a6ff;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.socn5-header p {
+  margin: 0;
+  color: #8b949e;
+}
+
+/* LAYOUT */
+.layout-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 260px;
+  background: #0d1117;
+  border-right: 1px solid #1f6feb;
+  padding: 20px;
+}
+
+.sidebar-nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-nav li {
+  margin-bottom: 12px;
+}
+
+.sidebar-nav a {
+  color: #c9d1d9;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.sidebar-nav a:hover {
+  color: #58a6ff;
+}
+
+/* CONTENT */
+.content {
+  flex: 1;
+  padding: 40px;
+  max-width: 1000px;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #0d1117;
+  border-top: 1px solid #1f6feb;
+  color: #8b949e;
 }
