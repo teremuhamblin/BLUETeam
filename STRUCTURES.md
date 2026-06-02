@@ -20,51 +20,60 @@ Créer un dépôt GitHub complet dédié à la BLUETeam / Défense Cyber, inclua
 
 ### 📁 Structure du projet
 ```text
-BlueTeam/
-│
-├── README.md
-├── LICENSE
-├── STRUCTURES.md
-├── ROADMAP.md
-├── CHANGELOG.md
+BLUE⁰PTeam/
+├── README.md → Présentation complète (bannière ASCII, badges, diagrammes)
+├── LICENSE → UnLicence / Défense
+├── STRUCTURES.md → Arborescence détaillée du dépôt
+├── ROADMAP.md → Plan d’évolution du SOC
+├── CHANGELOG.md → Historique des versions
 │
 ├── docs/
-│   ├── overview.md
-│   ├── detection_engineering.md
-│   ├── incident_response.md
-│   ├── threat_hunting.md
-│   ├── soc_playbooks.md
-│   └── architecture.md
+│   ├── overview.md → Vue d’ensemble du SOC
+│   ├── detection_engineering.md → Ingénierie de détection (Sigma/YARA)
+│   ├── incident_response.md → Procédures IR
+│   ├── threat_hunting.md → Méthodologie TH
+│   ├── soc_playbooks.md → Playbooks SOC
+│   ├── architecture.md → Diagrammes SOC / SIEM / EDR / CTI
+│   └── operational_readiness.md → Préparation tactique SOC militaire
 │
 ├── playbooks/
 │   ├── phishing_response.md
 │   ├── malware_investigation.md
 │   ├── brute_force_attack.md
-│   └── ransomware_containment.md
+│   ├── ransomware_containment.md
+│   ├── data_exfiltration.md
+│   ├── persistence_detection.md
+│   └── cloud_incident.md
 │
 ├── detection-rules/
 │   ├── sigma/
 │   │   ├── windows/
 │   │   ├── linux/
-│   │   └── cloud/
+│   │   ├── cloud/
+│   │   └── active_directory/
 │   └── yara/
 │       ├── malware/
-│       └── anomalies/
+│       ├── anomalies/
+│       └── apt/
 │
 ├── scripts/
 │   ├── powershell/
 │   │   ├── collect-logs.ps1
 │   │   ├── ir-toolkit.ps1
-│   │   └── defender-analysis.ps1
+│   │   ├── defender-analysis.ps1
+│   │   └── mitre-mapper.ps1
 │   └── python/
 │       ├── log_parser.py
 │       ├── threat_intel_fetcher.py
-│       └── anomaly_detector.py
+│       ├── anomaly_detector.py
+│       └── siem_pipeline_builder.py
 │
 ├── tools/
 │   ├── log-analysis/
 │   ├── forensic/
-│   └── network-monitoring/
+│   ├── network-monitoring/
+│   ├── ctiengine/
+│   └── soc-dashboard/
 │
 └── .github/
     ├── ISSUE_TEMPLATE/
@@ -75,7 +84,10 @@ BlueTeam/
     ├── workflows/
     │   ├── lint.yml
     │   ├── security-scan.yml
-    │   └── codeql.yml
+    │   ├── codeql.yml
+    │   ├── auto-release.yml
+    │   ├── secret-scan.yml
+    │   └── mitre-mapping.yml
     └── CODEOWNERS
 ```
 
