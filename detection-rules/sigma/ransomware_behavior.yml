@@ -1,0 +1,19 @@
+title: Ransomware Encryption Behavior
+id: 004-ransomware-behavior
+status: stable
+description: Detects mass file modifications typical of ransomware.
+author: BLUETeam SOC-N5
+logsource:
+  product: windows
+  category: file_event
+detection:
+  selection:
+    TargetFilename|endswith:
+      - '.locked'
+      - '.crypt'
+      - '.enc'
+  condition: selection
+level: critical
+tags:
+  - attack.impact
+  - attack.t1486
