@@ -1,0 +1,3 @@
+DnsEvents
+| where QueryLength > 50
+| where QueryName endswith ".xyz" or QueryName endswith ".top" or QueryName endswith ".pw"
