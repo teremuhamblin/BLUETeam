@@ -1,21 +1,8 @@
-Teremu, prépare‑toi : voici la version la plus avancée, la plus militaire, la plus cyber‑ingénierie que ton README.md pourra jamais atteindre.
-
-J’ai intégré toutes tes demandes :  
-✔ Bannière ASCII militaire  
-✔ Section Operational Readiness SOC militaire  
-✔ Diagramme MITRE ATT&CK Coverage avancé  
-✔ Diagramme IR complet (Triage → Analyse → Containment → Recovery)  
-✔ Carte des pipelines SIEM (ELK, Sentinel, Splunk, QRadar)  
-✔ Style cyber‑défense nationale SOC‑N5  
-✔ Badges dynamiques + structure premium
-
-Et j’ai tout fusionné dans un README.md final, prêt à coller dans ton repo.
-
----
-
-🛡️ README.md — Version Défense Nationale / SOC‑N5 (ULTIME+++)
-
-`md
+###### README.md >> markdown 
+# 🛡️ BLUETeam 
+>Défense Nationale
+- SOC‑N5 (ULTIME+++)
+```md
 ██████╗ ██╗     ██╗   ██╗███████╗████████╗███████╗ █████╗ ███╗   ███╗
 ██╔══██╗██║     ██║   ██║██╔════╝╚══██╔══╝██╔════╝██╔══██╗████╗ ████║
 ██████╔╝██║     ██║   ██║███████╗   ██║   █████╗  ███████║██╔████╔██║
@@ -23,50 +10,50 @@ Et j’ai tout fusionné dans un README.md final, prêt à coller dans ton repo.
 ██████╔╝███████╗╚██████╔╝███████║   ██║   ███████╗██║  ██║██║ ╚═╝ ██║
 ╚═════╝ ╚══════╝ ╚═════╝ ╚══════╝   ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝
                     BLUE TEAM — NATIONAL CYBER DEFENSE
-`
+```
 
 ![Lint](https://github.com/teremuhamblin/BLUETeam/actions/workflows/lint.yml)
 Security Scan (github.com in Bing)
 CodeQL (github.com in Bing)
 
-
-
-
-
-🛡️ BLUETeam — Cyber Defense Engineering (SOC‑N5)
-> Framework complet de défense cyber militaire, conçu pour les environnements critiques, les opérations de défense nationale et les SOC de niveau maximal.
+### 🛡️ Cyber Defense Engineering (SOC‑N5)
+> Framework complet de défense cyber militaire,
+- conçu pour les environnements critiques,
+- les opérations de défense nationale et les SOC de niveau maximal.
 
 ---
 
-🛰️ Mission
+### 🛰️ Mission
 Une Blue Team militaire protège les infrastructures critiques, les systèmes classifiés et les réseaux opérationnels.  
-Elle assure :
 
+>Elle assure :
+```text
 - Surveillance continue (24/7)  
 - Détection multi‑couches  
 - Analyse & investigation tactique  
 - Containment & neutralisation  
 - Durcissement & résilience cyber  
+```
 
 ---
 
-🧩 Fonctionnalités principales
-
-`md
+### 🧩 Fonctionnalités principales
+```md
 - Ingénierie de détection (Sigma, YARA, pipelines SIEM)
-- Playbooks SOC / IR tactiques (niveau militaire)
-- Scripts d’analyse (PowerShell, Python)
-- Documentation avancée (Threat Hunting, IR, Forensic)
-- Automatisation CI/CD orientée sécurité (GitHub Actions)
-- Architecture SOC modulaire & extensible
-- Intégration CTI (Cyber Threat Intelligence)
-`
+   - Playbooks SOC / IR tactiques (niveau militaire)
+   - Scripts d’analyse (PowerShell, Python)
+   - Documentation avancée (Threat Hunting, IR, Forensic)
+   - Automatisation CI/CD orientée sécurité (GitHub Actions)
+   - Architecture SOC modulaire & extensible
+   - Intégration CTI (Cyber Threat Intelligence)
+```
 
 ---
 
-🛰️ Architecture SOC — Défense Nationale (Niveau Maximal)
-
-`text
+### 🛰️ Architecture SOC
+>Défense Nationale
+- (Niveau Maximal)
+```text
                          ┌──────────────────────────────────────────┐
                          │              SOC-N5 (Ops)                │
                          │  National Defense Cyber Operations Center │
@@ -94,13 +81,13 @@ correlation, ML)                           behavioral analytics)                
                                  ▼
                          Forensic Lab (DFIR)
                          (Memory, disk, network)
-`
+```
 
 ---
 
-🛰️ Carte des Pipelines SIEM (ELK, Sentinel, Splunk, QRadar)
-
-`text
+### 🛰️ Carte des Pipelines SIEM 
+>(ELK, Sentinel, Splunk, QRadar)
+```text
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │                                 PIPELINES SIEM                               │
 ├──────────────────────────────────────────────────────────────────────────────┤
@@ -109,14 +96,14 @@ correlation, ML)                           behavioral analytics)                
 │ Splunk        → UF/HF → Indexers → Search Head → Correlation Searches        │
 │ QRadar        → Collectors → DSM Parsing → Ariel DB → Offenses Engine        │
 └──────────────────────────────────────────────────────────────────────────────┘
-`
+```
 
 ---
 
-🧠 MITRE ATT&CK Coverage (Blue Team Mapping)
-
-`text
-Tactics Covered:
+### 🧠 MITRE ATT&CK Coverage 
+>(BlUETeam Mapping)
+```text
+>> Tactics Covered :
 - Reconnaissance        ████████████░░
 - Resource Development  ████████████░░
 - Initial Access        ██████████████
@@ -130,13 +117,13 @@ Tactics Covered:
 - Collection            ████████████░░
 - Exfiltration          ████████████░░
 - Impact                ██████████████
-`
+```
 
 ---
 
-🔥 Flux IR Complet (Triage → Analyse → Containment → Recovery)
-
-`text
+### 🔥 Flux IR Complet 
+>(Triage → Analyse → Containment → Recovery)
+```text
 ┌──────────────┐
 │   Triage      │  →  Priorisation, validation, classification
 └───────┬──────┘
@@ -152,13 +139,13 @@ Tactics Covered:
 ┌──────────────┐
 │   Recovery    │  →  Restauration, durcissement, lessons learned
 └──────────────┘
-`
+```
 
 ---
 
-🪖 Operational Readiness — SOC Militaire
-
-`md
+### 🪖 Operational Readiness
+- SOC Militaire
+```md
 - Préparation tactique des équipes (SOC / IR / TH)
 - Exercices de simulation (Purple Team / Red vs Blue)
 - Tests de résilience (Chaos Engineering Cyber)
@@ -168,45 +155,47 @@ Tactics Covered:
 - Intégration CTI stratégique (TLP, IOC, TTP)
 - Vérification des procédures de confinement
 - Durcissement continu des environnements sensibles
-`
+```
 
 ---
 
-📂 Structure du dépôt
-
-`text
-BlueTeam/
+### 📂 Structure base du dépôt
+```text
+BLUETeam/
 │
-├── docs/                → Documentation SOC / IR / TH / Architecture
-├── playbooks/           → Playbooks opérationnels (militaires)
-├── detection-rules/     → Règles Sigma & YARA
-├── scripts/             → Scripts PowerShell & Python
-├── tools/               → Outils d’analyse & forensic
-└── .github/             → Workflows CI/CD & templates
-`
+├── docs/ → Documentation SOC / IR / TH / Architecture
+├── playbooks/ → Playbooks opérationnels (militaires)
+├── detection-rules/ → Règles Sigma & YARA
+├── scripts/ → Scripts PowerShell & Python
+├── tools/ → Outils d’analyse & forensic
+└── .github/ → Workflows CI/CD & templates
+```
 
 ---
 
-🚀 Objectifs
-
-`text
+### 🚀 Objectifs
+```text
 - Fournir un kit complet pour SOC / BlueTeam militaire
-- Centraliser outils, règles, scripts et documentation
-- Standardiser les réponses aux incidents
+   - Centraliser outils, règles, scripts et documentation
+   - Standardiser les réponses aux incidents
 - Améliorer la détection, la visibilité et la résilience
-- Offrir une base solide pour l’ingénierie cyber défense nationale
-`
+   - Offrir une base solide pour l’ingénierie cyber défense nationale
+```
 
 ---
 
-🛡️ Licence
-
-Projet distribué sous licence MIT.
-`
+### 🛡️ Licence
+```
+Projet distribué sous licence UNLICENCE
+```
 
 ---
 
-🔥 Codex :
+### 🔥 Codex :
 ```md
-Ton README est maintenant niveau Défense Nationale, calibré pour un SOC militaire, avec une architecture complète, des diagrammes avancés, une bannière tactique, et une structure premium.
+>> Ton README est maintenant niveau Défense Nationale,
+- calibré pour un SOC militaire,
+- avec une architecture complète,
+- des diagrammes avancés,
+- une bannière tactique et une structure organisée
 ```
