@@ -1,0 +1,22 @@
+title: "BLUETeam — SOC-N5"
+description: "Documentation cyberdéfense militaire"
+theme: minima
+
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
+remote_theme: pages-themes/slate@v0.2.0
+
+exclude:
+  - vendor
+  - node_modules
+  - scripts
+  - detection-rules
+  - playbooks
+  - .github
