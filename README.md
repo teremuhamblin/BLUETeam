@@ -16,10 +16,10 @@
 [![Security Scan](https://github.com/teremuhamblin/BLUETeam/actions/workflows/security-scan.yml/badge.svg)](https://github.com/teremuhamblin/BLUETeam/actions/workflows/security-scan.yml)
 [![CodeQL](https://github.com/teremuhamblin/BLUETeam/actions/workflows/codeql.yml/badge.svg)](https://github.com/teremuhamblin/BLUETeam/actions/workflows/codeql.yml)
 [![Status](https://img.shields.io/badge/Status-Active-blue)]()
-[![Security Level](https://img.shields.io/badge/SOC-Level%205%20(National%20Defense)-red)]()
-[![MITRE ATT&CK](https://img.shields.io/badge/MITRE-ATT%26CK-red)]()
-[![Threat Intel](https://img.shields.io/badge/CTI-Integrated-orange)]()
-[![Forensic](https://img.shields.io/badge/DFIR-Ready-green)]()
+[![Security Level](https://img.shields.io/badge/SOC-Level%205%20(Defense)-blue)]()
+[![MITRE ATT&CK](https://img.shields.io/badge/MITRE-ATT%26CK-blue)]()
+[![Threat Intel](https://img.shields.io/badge/CTI-Integrated-blue)]()
+[![Forensic](https://img.shields.io/badge/DFIR-Ready-blue)]()
 
 # 🛡️ BLUETeam — Cyber Defense Engineering (SOC‑N5)
 > **Framework complet de défense cyber militaire**, conçu pour les environnements critiques, les opérations de défense nationale et les SOC de niveau maximal.
