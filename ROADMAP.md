@@ -1,21 +1,24 @@
-# 🧭 Roadmap BlueTeam
+###### ROADMAP.md 
+# 🚀 BLUETeam 
+>SOC‑N5
 
-## v0.1 — Initialisation
-- Structure du projet
+### v0.1 — Initialisation
+- Structure du dépôt
 - Documentation de base
-- Playbooks SOC initiaux
 
-## v0.2 — Scripts & Automatisation
-- Scripts PowerShell IR
-- Scripts Python log parsing
-- Outils forensic
+### v0.2 — Scripts & Automatisation
+- Scripts PowerShell & Python
+- Pipelines SIEM
 
-## v0.3 — Détection & Règles
-- Règles Sigma Windows/Linux
-- Règles YARA malware
-- Intégration MITRE ATT&CK
+### v0.3 — Détection
+- Règles Sigma
+- Règles YARA
 
-## v1.0 — Release Stable
-- Documentation complète
-- CI/CD sécurité
+### v1.0 — Release SOC‑N5
+- Architecture complète
+- Playbooks militaires
+- CTI intégrée
+
+### v2.0 — Extensions
 - Tableau de bord SOC
+- Automatisation avancée
