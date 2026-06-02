@@ -25,8 +25,12 @@ BLUETeam/
 ├── LICENSE → UnLicence / Défense
 ├── STRUCTURES.md → Arborescence détaillée du dépôt
 ├── ROADMAP.md → Plan d’évolution du SOC
-├── CHANGELOG.md → Historique des versions
-│
+├── CHANGELOG.md → Historique des versions/
+├── .gitkeep
+├── _config.yml → Configuration Jekyll
+├── Gemfile → Dépendances Jekyll
+├── index.md → Page d’accueil
+├── assets/ → CSS, JS, images
 ├── docs/
 │   ├── overview.md → Vue d’ensemble du SOC
 │   ├── detection_engineering.md → Ingénierie de détection (Sigma/YARA)
@@ -82,6 +86,7 @@ BLUETeam/
     │   └── incident_report.md
     ├── PULL_REQUEST_TEMPLATE.md
     ├── workflows/
+    │   ├── pages.yml (Workflow Jekyll GitHub Actions)
     │   ├── lint.yml
     │   ├── security-scan.yml
     │   ├── codeql.yml
