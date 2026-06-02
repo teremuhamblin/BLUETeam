@@ -5,9 +5,8 @@ title: "Accueil"
 
 # 🛡️ BLUETeam
 >SOC‑N5  
-### *Cyber Defense • Military Grade*
-# 🛰️ Dashboard Opérationnel — SOC‑N5
-
+- *Cyber Defense • Military Grade*
+### 🛰️ Dashboard Opérationnel
 <div class="dashboard">
 
   <!-- Ligne 1 : Indicateurs -->
