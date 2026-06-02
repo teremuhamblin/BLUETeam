@@ -1,4 +1,38 @@
-<header class="banner">
-  <h1>BLUETeam — SOC‑N5</h1>
-  <p>Cyber Defense • Military Grade</p>
-</header>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} | BLUETeam — SOC‑N5</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {%- seo -%}
+
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+
+<body>
+
+  <!-- HEADER FUSIONNÉ -->
+  <header class="socn5-header banner">
+    <div class="header-title">
+      <h1>BLUETeam — SOC‑N5</h1>
+      <p>Cyber Defense • Military Grade</p>
+    </div>
+  </header>
+
+  <div class="layout-container">
+    <aside class="sidebar">
+      {% include sidebar.html %}
+    </aside>
+
+    <main class="content">
+      {{ content }}
+    </main>
+  </div>
+
+  <footer class="footer">
+    <p>© {{ site.time | date: '%Y' }} BLUETeam — SOC‑N5</p>
+  </footer>
+
+</body>
+</html>
