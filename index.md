@@ -234,3 +234,11 @@ Pour toute demande d’amélioration, contribution ou extension du projet :
 Fin de transmission.  
 **BLUETeam — SOC‑N5**  
 *Military Grade Cyber Defense*
+
+<div class="badge-grid">
+  <span class="badge badge-mitre">MITRE ATT&CK Ready</span>
+  <span class="badge badge-tlp-amber">TLP:AMBER</span>
+  <span class="badge badge-tlp-red">TLP:RED</span>
+  <span class="badge badge-cvss">CVSS v3.1</span>
+  <span class="badge badge-soc">SOC‑N5 Certified</span>
+</div>
