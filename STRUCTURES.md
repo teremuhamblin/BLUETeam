@@ -20,7 +20,7 @@ Créer un dépôt GitHub complet dédié à la BLUETeam / Défense Cyber, inclua
 
 ### 📁 Structure du projet
 ```text
-BLUE⁰PTeam/
+BLUETeam/
 ├── README.md → Présentation complète (bannière ASCII, badges, diagrammes)
 ├── LICENSE → UnLicence / Défense
 ├── STRUCTURES.md → Arborescence détaillée du dépôt
