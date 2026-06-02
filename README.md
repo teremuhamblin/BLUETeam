@@ -21,16 +21,17 @@
 [![Threat Intel](https://img.shields.io/badge/CTI-Integrated-blue)]()
 [![Forensic](https://img.shields.io/badge/DFIR-Ready-blue)]()
 
-# 🛡️ BLUETeam — Cyber Defense Engineering (SOC‑N5)
-> **Framework complet de défense cyber militaire**, conçu pour les environnements critiques, les opérations de défense nationale et les SOC de niveau maximal.
-> Ce dépôt fournit une architecture opérationnelle pour :
+# 🛡️ Engineering 
+- (Cyber)
+   > **Framework complet de défense cyber militaire**, conçu pour les environnements critiques, les opérations de défense nationale et les SOC de niveau maximal.
+   > Ce dépôt fournit une architecture opérationnelle pour :
 ```md
-- la **détection avancée**,  
-- la **réponse aux incidents**,  
-- la **chasse aux menaces**,  
-- l’**analyse forensique**,  
-- l’**automatisation SOC**,  
-- l’**ingénierie de pipelines de sécurité**.
+   >> la **détection avancée**,  
+   - la **réponse aux incidents**,  
+   - la **chasse aux menaces**,  
+,  - l’**analyse forensique**,  
+   - l’**automatisation SOC**,  
+   - l’**ingénierie de pipelines de sécurité**.
 ```
 
 ---
@@ -40,11 +41,6 @@
    - (github.com in Bing)
 >CodeQL
    - (github.com in Bing)
-
-### 🛡️ Cyber Defense Engineering (SOC‑N5)
-> Framework complet de défense cyber militaire,
-- conçu pour les environnements critiques,
-- les opérations de défense nationale et les SOC de niveau maximal.
 
 ---
 
