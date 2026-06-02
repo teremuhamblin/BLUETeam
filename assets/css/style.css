@@ -76,3 +76,147 @@ body {
   border-top: 1px solid #1f6feb;
   color: #8b949e;
 }
+
+/* ===========================
+   DASHBOARD SOC-N5
+   =========================== */
+
+.dashboard {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* ROW */
+.dash-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* CARDS */
+.dash-card {
+  background: #0d1117;
+  border: 1px solid #1f6feb;
+  padding: 20px;
+  border-radius: 8px;
+  width: 260px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(31, 111, 235, 0.2);
+  transition: transform 0.2s ease;
+}
+
+.dash-card:hover {
+  transform: scale(1.05);
+}
+
+.dash-card h3 {
+  margin: 0;
+  color: #58a6ff;
+  font-size: 20px;
+}
+
+.dash-number {
+  font-size: 42px;
+  font-weight: 700;
+  margin: 10px 0;
+  color: #c9d1d9;
+}
+
+.dash-number.warning {
+  color: #ff7b72;
+}
+
+.dash-label {
+  color: #8b949e;
+  font-size: 14px;
+}
+
+/* PULSE ANIMATION */
+.pulse {
+  animation: pulseGlow 2s infinite;
+}
+
+@keyframes pulseGlow {
+  0% { box-shadow: 0 0 5px #1f6feb; }
+  50% { box-shadow: 0 0 20px #1f6feb; }
+  100% { box-shadow: 0 0 5px #1f6feb; }
+}
+
+/* PROGRESS BARS */
+.dash-progress {
+  background: #0d1117;
+  border: 1px solid #1f6feb;
+  padding: 20px;
+  border-radius: 8px;
+  width: 350px;
+}
+
+.progress-bar {
+  background: #161b22;
+  height: 12px;
+  border-radius: 6px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  background: #58a6ff;
+  height: 100%;
+  border-radius: 6px;
+  animation: growBar 2s ease-out;
+}
+
+@keyframes growBar {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+.progress-value {
+  margin-top: 8px;
+  color: #8b949e;
+  font-size: 14px;
+}
+
+/* RADAR */
+.radar-container {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  border: 2px solid #1f6feb;
+  position: relative;
+  margin: auto;
+}
+
+.radar {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(31,111,235,0.2) 0%, rgba(10,15,20,1) 70%);
+  position: relative;
+  overflow: hidden;
+}
+
+.radar::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 2px;
+  background: #58a6ff;
+  top: 50%;
+  left: 50%;
+  transform-origin: left center;
+  animation: radarSweep 3s linear infinite;
+}
+
+@keyframes radarSweep {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.radar-label {
+  text-align: center;
+  margin-top: 10px;
+  color: #8b949e;
+}
