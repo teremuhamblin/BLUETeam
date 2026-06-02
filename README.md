@@ -206,8 +206,10 @@ BLUETeam/
 ---
 
 ### 🛡️ Licence
-```
-Projet distribué sous licence UNLICENCE
+```text---
+>> Copyright (c) 2026
+   - Permission is here by granted, free of charge, to any person obtaining a copy of this software and associated documentation files...
+   - Projet distribué sous licence UNLICENCE
 ```
 
 ---
@@ -215,8 +217,8 @@ Projet distribué sous licence UNLICENCE
 ### 🔥 Codex :
 ```md
 >> Ton README est maintenant niveau Défense Nationale,
-- calibré pour un SOC militaire,
-- avec une architecture complète,
-- des diagrammes avancés,
-- une bannière tactique et une structure organisée
+   - calibré pour un SOC militaire,
+   - avec une architecture complète,
+   - des diagrammes avancés,
+   - une bannière tactique et une structure organisée
 ```
