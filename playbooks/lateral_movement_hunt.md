@@ -1,4 +1,7 @@
-# PLAYBOOK — LATERAL MOVEMENT HUNT (SOC‑N5)
+###### lateral_movement_hunt.md >> markdown
+# PLAYBOOK
+>LATERAL MOVEMENT HUNT
+- (SOC‑N5)
 
 ## Objectif
 Détecter, confirmer et contenir un mouvement latéral actif ou suspecté dans l’infrastructure.
