@@ -1,4 +1,7 @@
-# PLAYBOOK — PRIVILEGE ESCALATION (SOC‑N5)
+###### privilege_escalation.md >> markdown 
+# PLAYBOOK
+>PRIVILEGE ESCALATION
+- (SOC‑N5)
 
 ## Objectif
 Identifier et stopper une tentative d’élévation de privilèges locale ou distante.
