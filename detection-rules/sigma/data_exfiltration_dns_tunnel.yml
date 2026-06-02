@@ -1,0 +1,20 @@
+title: DNS Tunneling Exfiltration
+id: 006-dns-tunnel
+status: stable
+description: Detects DNS queries typical of tunneling tools.
+author: BLUETeam SOC-N5
+logsource:
+  product: windows
+  category: dns_query
+detection:
+  selection:
+    QueryName|contains:
+      - '.xyz'
+      - '.pw'
+      - '.top'
+    QueryLength: '>50'
+  condition: selection
+level: high
+tags:
+  - attack.exfiltration
+  - attack.t1048
