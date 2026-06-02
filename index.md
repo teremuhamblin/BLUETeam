@@ -6,6 +6,15 @@ title: "Accueil"
 # 🛡️ BLUETeam
 >SOC‑N5  
 - *Cyber Defense • Military Grade*
+
+### 🧭 Command Center
+<div class="command-center">
+  <div class="cc-card">📡 Radar actif</div>
+  <div class="cc-card">🛡 3 incidents en cours</div>
+  <div class="cc-card">🎯 82% couverture MITRE</div>
+  <div class="cc-card">💻 27 playbooks exécutés</div>
+</div>
+
 ### 🛰️ Dashboard Opérationnel
 <div class="dashboard">
 
