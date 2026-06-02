@@ -1,0 +1,3 @@
+SecurityEvent
+| where Process has "psexec"
+| project TimeGenerated, Computer, Account, Process, CommandLine
