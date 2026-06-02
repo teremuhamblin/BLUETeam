@@ -6,6 +6,59 @@ title: "Accueil"
 # 🛡️ BLUETeam
 >SOC‑N5  
 ### *Cyber Defense • Military Grade*
+# 🛰️ Dashboard Opérationnel — SOC‑N5
+
+<div class="dashboard">
+
+  <!-- Ligne 1 : Indicateurs -->
+  <div class="dash-row">
+    <div class="dash-card pulse">
+      <h3>Détections</h3>
+      <p class="dash-number">148</p>
+      <span class="dash-label">Dernières 24h</span>
+    </div>
+
+    <div class="dash-card">
+      <h3>Incidents actifs</h3>
+      <p class="dash-number warning">3</p>
+      <span class="dash-label">Niveau 2</span>
+    </div>
+
+    <div class="dash-card">
+      <h3>Playbooks exécutés</h3>
+      <p class="dash-number">27</p>
+      <span class="dash-label">Cette semaine</span>
+    </div>
+  </div>
+
+  <!-- Ligne 2 : Barres de progression -->
+  <div class="dash-row">
+    <div class="dash-progress">
+      <span>Couverture MITRE ATT&CK</span>
+      <div class="progress-bar">
+        <div class="progress-fill" style="width: 82%;"></div>
+      </div>
+      <p class="progress-value">82%</p>
+    </div>
+
+    <div class="dash-progress">
+      <span>Playbooks complétés</span>
+      <div class="progress-bar">
+        <div class="progress-fill" style="width: 64%;"></div>
+      </div>
+      <p class="progress-value">64%</p>
+    </div>
+  </div>
+
+  <!-- Ligne 3 : Radar -->
+  <div class="dash-row">
+    <div class="radar-container">
+      <div class="radar"></div>
+      <p class="radar-label">Scan réseau en cours…</p>
+    </div>
+  </div>
+
+</div>
 
 Bienvenue sur la plateforme opérationnelle **BLUETeam — SOC‑N5**, un environnement cyberdéfense de niveau militaire conçu pour les analystes, ingénieurs, architectes et commandements cyber.  
 Ce site constitue le **référentiel tactique, technique et stratégique** d’un SOC moderne, résilient et offensif dans sa posture défensive.
