@@ -1,0 +1,57 @@
+name: MITRE Mapping Validation
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+
+jobs:
+  mitre-check:
+    name: Validate MITRE Mapping
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Dependencies
+        run: |
+          pip install pyyaml
+
+      - name: Validate MITRE Mapping
+        run: |
+          echo "🔍 Checking MITRE mappings..."
+          python3 << 'EOF'
+import os, yaml, re
+
+MITRE_PATTERN = re.compile(r"T\d{4}(\.\d{3})?")
+
+def check_file(path):
+    with open(path, "r", encoding="utf-8") as f:
+        data = yaml.safe_load(f)
+
+    mitre = data.get("tags", [])
+    if not mitre:
+        print(f"[!] Missing MITRE tags in {path}")
+        exit(1)
+
+    for tag in mitre:
+        if tag.startswith("attack."):
+            tech = tag.split("attack.")[-1]
+            if not MITRE_PATTERN.match(tech):
+                print(f"[!] Invalid MITRE technique in {path}: {tech}")
+                exit(1)
+
+root = "detection-rules"
+for subdir, _, files in os.walk(root):
+    for file in files:
+        if file.endswith(".yml") or file.endswith(".yaml"):
+            check_file(os.path.join(subdir, file))
+
+print("✔ All MITRE mappings are valid.")
+EOF
