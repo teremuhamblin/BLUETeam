@@ -13,7 +13,7 @@
                     BLUETeam — DÉFENSE NATIONNALE
 ```
 [![Lint](https://github.com/teremuhamblin/BLUETeam/actions/workflows/lint.yml/badge.svg)](https://github.com/teremuhamblin/BLUETeam/actions/workflows/lint.yml)
-[![Security Scan](https://github.com/teremuhamblin/BLUETeam/actions/workflows/security-scan.yml/badge.svg)](https://github.com/teremuhamblin/BLUETeam/actions/workflows/security-scan.yml/badge.svg)]
+[![Security Scan](https://github.com/teremuhamblin/BLUETeam/actions/workflows/security-scan.yml/badge.svg)](https://github.com/teremuhamblin/BLUETeam/actions/workflows/security-scan.yml)
 [![Secret Scan](https://github.com/teremuhamblin/BLUETeam/actions/workflows/secret-scan.yml/badge.svg)](https://github.com/teremuhamblin/BLUETeam/actions/workflows/secret-scan.yml)
 [![Status](https://img.shields.io/badge/Status-Active-blue)]()
 [![Security Level](https://img.shields.io/badge/SOC-Level%205%20(Defense)-blue)]()
