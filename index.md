@@ -4,6 +4,7 @@ title: "Accueil"
 ---
 
 # 🛡️ BLUETeam
+[![Secret Scan](https://github.com/teremuhamblin/BLUETeam/actions/workflows/secret-scan.yml/badge.svg)](https://github.com/teremuhamblin/BLUETeam/actions/workflows/secret-scan.yml)
 >SOC‑N5  
 - *Cyber Defense • Military Grade*
 
