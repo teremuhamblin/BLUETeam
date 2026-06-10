@@ -1,0 +1,30 @@
+# ============================================================
+#  BLUETeam — Funding Configuration
+#  Thème : Armée de Terre / Cyberdéfense / Soutien Défense
+# ============================================================
+
+# Plateforme principale — GitHub Sponsors
+github:
+  - teremuhamblin
+
+
+# Plateformes alternatives (désactivées mais prêtes)
+patreon: ""                 # ex: patreon.com/...
+open_collective: ""         # ex: opencollective.com/...
+ko_fi: ""                   # ex: ko-fi.com/...
+tidelift: ""                # ex: npm/ton-package
+community_bridge: ""        # ex: cloud-foundry
+liberapay: ""               # ex: liberapay.com/...
+issuehunt: ""               # ex: user/project
+lfx_crowdfunding: ""        # ex: cloud-foundry
+polar: ""                   # ex: polar.sh/...
+buy_me_a_coffee: ""         # ex: buymeacoffee.com/...
+thanks_dev: ""              # ex: thanks.dev/user
+
+
+# Liens personnalisés — Armée de Terre / Cyberdéfense
+custom:
+  - https://www.defense.gouv.fr/terre                 # Armée de Terre (site officiel)
+  - https://www.comcyber.defense.gouv.fr             # Commandement de la Cyberdéfense (COMCYBER)
+  - https://www.gendarmerie.interieur.gouv.fr        # Gendarmerie Nationale (cyber / PJGN)
+  - https://www.ssi.gouv.fr                           # ANSSI — Agence nationale de la sécurité des systèmes d'information
