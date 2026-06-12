@@ -1,0 +1,36 @@
+name: Demande de fonctionnalité
+description: Proposer une amélioration pour BLUETeam
+title: "[FEATURE] "
+labels: [ "enhancement" ]
+assignees: [ ]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Propose une amélioration utile au combat défensif.
+
+  - type: input
+    id: summary
+    attributes:
+      label: Résumé
+      placeholder: "Ex : Ajouter un module de corrélation d’alertes."
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation opérationnelle
+      description: Pourquoi cette feature est importante pour la défense ?
+      placeholder: "Ex : Réduction du temps de détection, meilleure visibilité SOC, etc."
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Description détaillée
+      placeholder: "Décris le comportement, les entrées/sorties, les contraintes."
+    validations:
+      required: true
