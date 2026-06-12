@@ -1,0 +1,55 @@
+name: Rapport de bug
+description: Signaler un dysfonctionnement dans BLUETeam
+title: "[BUG] "
+labels: [ "bug" ]
+assignees: [ ]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de contribuer à la robustesse de BLUETeam.
+
+  - type: input
+    id: context
+    attributes:
+      label: Contexte opérationnel
+      description: Environnement, scénario d’usage (prod, lab, exercice, etc.)
+      placeholder: "Ex : Lab réseau interne, simulation attaque, etc."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Étapes pour reproduire
+      description: Liste claire des actions menant au bug.
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Comportement attendu
+      placeholder: "Ce que tu attendais que BLUETeam fasse."
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Comportement observé
+      placeholder: "Ce que BLUETeam a réellement fait."
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / sorties
+      description: Ajoute les logs pertinents (en masquant les infos sensibles).
+      render: shell
